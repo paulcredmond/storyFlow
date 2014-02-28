@@ -243,41 +243,6 @@ textarea {
 	padding-bottom: 0;
 }
 
-.storyBlock .span12{
-	margin: 0;
-}
-
-.storyBlock .video{
-	position: relative;
-	padding-bottom: 56.25%;
-	margin-bottom: 20px;
-	height: 0;
-	overflow: hidden;
-}
-
-.storyBlock .video iframe,
-.storyBlock .video object,
-.storyBlock .video embed{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-
-
-@media only screen and (max-width: 979px) and (min-width: 768px){
-	.storyBlock .info{
-		padding: 0 20px;
-	}
-}
-
-@media (max-width: 767px){
-	.storyBlock .info{
-		padding: 0;
-	}
-}
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
