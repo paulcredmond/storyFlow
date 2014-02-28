@@ -1,7 +1,7 @@
 storyFlow
 =========
 
-StoryFlow is a simple set of HTML & JS files that displays the next part of a story based on the user selecting one option from a variety of options which then reveals and scrolls to a new 'storyblock'. The script will also disable the buttons previously selected so the user cannot backtrack on what they have selected. The selected button will also be highlighted to allow the user to scroll back up to review what they have selected.
+StoryFlow is a way to navigate a series of HTML blocks (which I'll call 'storyblocks') by providing the user with options to take them on various paths to the end of the story. After a path is selected, the appropriate storyblock is revealed, and scrolled to automatically. The script will also disable the buttons previously selected so the user cannot backtrack on what they have already selected. The selected button will also be highlighted to allow the user to scroll back up to review what they have chosen.
 
 ###HTML Version
 This version has all the content on the page and jQuery will hide them by default. The storyblocks will be revealed as the user makes their choices.
