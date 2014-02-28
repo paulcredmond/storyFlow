@@ -10,6 +10,5 @@ This version has all the content on the page and jQuery will hide them by defaul
 This version has the various storyblocks stored in separate files and will load them as they are called using Ajax. Some changes to the code may be required depending on the source and file names of the storyblocks.
 
 ####Notes
-* Uses jQuery from the HTML Boilerplate setup
-* Default styles from Bootstrap
+* Default files from the [HTML Boilerplate](https://github.com/h5bp/html5-boilerplate) and [Bootstrap](http://getbootstrap.com/).
 * Has the Cycle2 plugin integrated (MIT license). You can find out more at [the Cycle2 repo](https://github.com/malsup/cycle2).
