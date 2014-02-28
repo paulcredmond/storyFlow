@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>StoryFlow - Ajax Version</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="../css/normalize.css">
+		<link rel="stylesheet" href="../css/main.css">
+		<link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="../js/plugins/jquery-1.10.2.min.js"><\/script>')</script>		
+		<script src="../js/plugins/modernizr-2.6.2.min.js"></script>
+	</head>
+	<body>
+		<!--[if lt IE 7]>
+			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+		<div class="wrapper">
+			<div id="stories">
+				<div id="start" class="storyBlock">
+					<div class="cycle-slideshow" 
+						data-cycle-fx=scrollHorz
+						data-cycle-timeout=0
+						data-cycle-swipe=true
+						data-cycle-slides="> figure"
+						>
+						<figure>
+							<img src="http://lorempixel.com/940/500/people/4" alt="Photo">
+							<figcaption>
+								<span>African women sell fruit at the local market</span>
+							</figcaption>
+						</figure>
+						<figure>
+							<img src="http://lorempixel.com/940/500/people/7" alt="Photo">
+							<figcaption>
+								<span>A woman from Iran</span>
+							</figcaption>
+						</figure>
+						<figure>
+							<img src="http://lorempixel.com/940/500/people/3" alt="Photo">
+							<figcaption>
+								<span>A man suffering with blindness.</span>
+							</figcaption>
+						</figure>
+						<figure>
+							<img src="http://lorempixel.com/940/500/people/5" alt="Photo">
+							<figcaption>
+								<span>People on the subway.</span>
+							</figcaption>
+						</figure>
+						<div class="cycle-arrow cycle-prev"></div>
+						<div class="cycle-arrow cycle-next"></div>
+					</div>
+					<div class="info clearfix">
+						<h3>The starting point</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, dolorem, eveniet, iure odio neque quod aliquam ipsam recusandae laboriosam quidem sed expedita accusantium dolor optio iusto. Numquam commodi quasi ad.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, porro suscipit error. Sapiente, repellat corporis debitis tenetur odio ut similique facere quas sint fugit temporibus unde alias deleniti saepe tempore voluptatum repudiandae delectus quod deserunt officia blanditiis? Aliquam, accusamus, praesentium, vel sit soluta modi quas consequuntur officiis nemo dolores beatae fugiat asperiores architecto quod laudantium neque inventore illo aut maiores.</p>
+						<p class="question">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, velit, ratione?</p>
+						<div class="buttons">
+							<button class="btn btn-default" data-link="story1">Choice One</button>
+							<button class="btn btn-default" data-link="story2">Choice Two</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="loading" style="display: none; text-align: center;">
+				<img src='img/ajax-loader.gif' alt='Loading...' />
+			</div>			
+		</div>
+		<script src="../js/plugins/jquery.cycle2.min.js"></script>
+		<script src="../js/main-ajax.js"></script>
+	 </body>
+</html>
